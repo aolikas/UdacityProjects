@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NewInvitation</string>
+    <string name="outdoor">Outdoor Target Archery</string>
+    <string name="competition">Competition</string>
+    <string name="place">Hamburg, Germany</string>
+    <string name="date">20.04.2017</string>
+    <string name="time">from 11 a.m.</string>
+    <string name="button">registration</string>
+</resources>
