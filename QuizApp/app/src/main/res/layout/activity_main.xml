@@ -107,7 +107,7 @@
 
             <ImageView
                 style="@style/layoutImageQuestion"
-                android:src="@drawable/question_3" />
+                android:contentDescription="TODO" android:src="@drawable/question_3" />
 
             <TextView
                 style="@style/questionSentenceStyle"
@@ -141,19 +141,19 @@
 
                     <ImageView
                         style="@style/tableRowImageStyle"
-                        android:src="@drawable/button1" />
+                        android:contentDescription="TODO" android:src="@drawable/button1" />
 
                     <ImageView
                         style="@style/tableRowImageStyle"
-                        android:src="@drawable/button2" />
+                        android:contentDescription="TODO" android:src="@drawable/button2" />
 
                     <ImageView
                         style="@style/tableRowImageStyle"
-                        android:src="@drawable/button3" />
+                        android:contentDescription="TODO" android:src="@drawable/button3" />
 
                     <ImageView
                         style="@style/tableRowImageStyle"
-                        android:src="@drawable/button4" />
+                        android:contentDescription="TODO" android:src="@drawable/button4" />
                 </TableRow>
 
             </TableLayout>
@@ -195,7 +195,7 @@
 
             <ImageView
                 style="@style/layoutImageQuestion"
-                android:src="@drawable/question4" />
+                android:contentDescription="TODO" android:src="@drawable/question4" />
 
             <TextView
                 style="@style/questionSentenceStyle"
@@ -229,19 +229,19 @@
 
                     <ImageView
                         style="@style/tableRowImageStyle"
-                        android:src="@drawable/button6" />
+                        android:contentDescription="TODO" android:src="@drawable/button6" />
 
                     <ImageView
                         style="@style/tableRowImageStyle"
-                        android:src="@drawable/button7" />
+                        android:contentDescription="TODO" android:src="@drawable/button7" />
 
                     <ImageView
                         style="@style/tableRowImageStyle"
-                        android:src="@drawable/button8" />
+                        android:contentDescription="TODO" android:src="@drawable/button8" />
 
                     <ImageView
                         style="@style/tableRowImageStyle"
-                        android:src="@drawable/button9" />
+                        android:contentDescription="TODO" android:src="@drawable/button9" />
                 </TableRow>
 
             </TableLayout>
@@ -283,7 +283,7 @@
 
             <ImageView
                 style="@style/layoutImageQuestion"
-                android:src="@drawable/question5" />
+                android:contentDescription="TODO" android:src="@drawable/question5" />
 
             <TextView
                 style="@style/questionSentenceStyle"
@@ -317,19 +317,19 @@
 
                     <ImageView
                         style="@style/tableRowImageStyle"
-                        android:src="@drawable/button11" />
+                        android:contentDescription="TODO" android:src="@drawable/button11" />
 
                     <ImageView
                         style="@style/tableRowImageStyle"
-                        android:src="@drawable/button12" />
+                        android:contentDescription="TODO" android:src="@drawable/button12" />
 
                     <ImageView
                         style="@style/tableRowImageStyle"
-                        android:src="@drawable/button13" />
+                        android:contentDescription="TODO" android:src="@drawable/button13" />
 
                     <ImageView
                         style="@style/tableRowImageStyle"
-                        android:src="@drawable/button14" />
+                        android:contentDescription="TODO" android:src="@drawable/button14" />
                 </TableRow>
 
             </TableLayout>
@@ -395,7 +395,7 @@
             <Button
                 android:id="@+id/submit_button"
                 style="@style/buttonRightStyle"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" android:layout_alignParentRight="true"
                 android:text="@string/button_submit" />
 
         </LinearLayout>
