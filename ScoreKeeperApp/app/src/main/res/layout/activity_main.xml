@@ -17,10 +17,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/in_left"
+            android:layout_marginEnd="@dimen/in_right" android:layout_marginLeft="@dimen/in_left"
             android:layout_marginRight="@dimen/in_right"
-            android:layout_marginTop="@dimen/in_top"
-            android:orientation="horizontal">
+            android:layout_marginStart="@dimen/in_left" android:layout_marginTop="@dimen/in_top"
+            android:baselineAligned="false" android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -34,7 +34,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="6dp"
-                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginEnd="6dp" android:fontFamily="sans-serif-medium"
                     android:text="@string/textTotalPoints"
                     android:textAllCaps="true"
                     android:textColor="@color/textColor"
@@ -61,7 +61,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="6dp"
-                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginEnd="6dp" android:fontFamily="sans-serif-medium"
                     android:text="@string/textArrowsUsed"
                     android:textAllCaps="true"
                     android:textColor="@color/textColor"
@@ -81,10 +81,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/in_left"
+            android:layout_marginEnd="@dimen/in_right" android:layout_marginLeft="@dimen/in_left"
             android:layout_marginRight="@dimen/in_right"
-            android:layout_marginTop="@dimen/in_top"
-            android:orientation="horizontal">
+            android:layout_marginStart="@dimen/in_left" android:layout_marginTop="@dimen/in_top"
+            android:baselineAligned="false" android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="0dp"
