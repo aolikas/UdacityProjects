@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    tools:context="com.example.android.archerypoints.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/in_left"
+            android:layout_marginRight="@dimen/in_right"
+            android:layout_marginTop="@dimen/in_top"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/textTotalPoints"
+                    android:textAllCaps="true"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/text_size" />
+
+                <TextView
+                    android:id="@+id/text_points"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/score_numbers_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/textArrowsUsed"
+                    android:textAllCaps="true"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/text_size" />
+
+                <TextView
+                    android:id="@+id/text_arrows"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/score_numbers_size" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/in_left"
+            android:layout_marginRight="@dimen/in_right"
+            android:layout_marginTop="@dimen/in_top"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/b_add_ten"
+                    style="@style/ButtonStyle"
+                    android:background="@color/buttonYellow"
+                    android:text="+ 10" />
+
+                <Button
+                    android:id="@+id/b_add_eight"
+                    style="@style/ButtonStyle"
+                    android:background="@color/buttonRed"
+                    android:text="+ 8" />
+
+                <Button
+                    android:id="@+id/b_add_six"
+                    style="@style/ButtonStyle"
+                    android:background="@color/buttonBlue"
+                    android:text="+ 6" />
+
+                <Button
+                    android:id="@+id/b_add_four"
+                    style="@style/ButtonStyle"
+                    android:background="@color/buttonBlack"
+                    android:text="+ 4"
+                    android:textColor="@color/textButtonWhite" />
+
+                <Button
+                    android:id="@+id/b_add_two"
+                    style="@style/ButtonStyle"
+                    android:background="@color/buttonWhite"
+                    android:text="+ 2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/b_add_nine"
+                    style="@style/ButtonStyle"
+                    android:background="@color/buttonYellow"
+                    android:text="+ 9" />
+
+                <Button
+                    android:id="@+id/b_add_seven"
+                    style="@style/ButtonStyle"
+                    android:background="@color/buttonRed"
+                    android:text="+ 7" />
+
+                <Button
+                    android:id="@+id/b_add_five"
+                    style="@style/ButtonStyle"
+                    android:background="@color/buttonBlue"
+                    android:text="+ 5" />
+
+                <Button
+                    android:id="@+id/b_add_three"
+                    style="@style/ButtonStyle"
+                    android:background="@color/buttonBlack"
+                    android:text="+ 3"
+                    android:textColor="@color/textButtonWhite" />
+
+                <Button
+                    android:id="@+id/b_add_one"
+                    style="@style/ButtonStyle"
+                    android:background="@color/buttonWhite"
+                    android:text="+ 1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/b_add_zero"
+            style="@style/BigButtonStyle"
+            android:background="@color/buttonPink"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/text_reset"
+            style="@style/BigButtonStyle"
+            android:background="@color/buttonApricot"
+            android:onClick="resetAll"
+            android:text="@string/buttonReset" />
+
+    </LinearLayout>
+
+</ScrollView>

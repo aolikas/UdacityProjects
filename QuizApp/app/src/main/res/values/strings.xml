@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Qiuz</string>
+    <string name="question_1">Question 1</string>
+    <string name="question_2">Question 2</string>
+    <string name="question_3">Question 3</string>
+    <string name="question_4">Question 4</string>
+    <string name="question_5">Question 5</string>
+    <string name="question_6">Question 6</string>
+    <string name="question_1_text">Choose all WRONG answers</string>
+    <string name="question_1_body_text">16, 13, 17, 12, 18, 11,  ?</string>
+    <string name="question_edit_text">Write the next item in the series:</string>
+    <string name="question_2_text_part_1">If 2 x 8 =4, 3 x 15 = 5, 4 x 24 = 6,</string>
+    <string name="question_2_text_part_2">then 5 x 40 = ?</string>
+    <string name="pattern_image_question_1">Choose the image that completes the pattern:</string>
+    <string name="pattern_image_question_2">Which of the shapes below continues the sequence:</string>
+    <string name="pattern_input_text">Write your answer here</string>
+    <string name="button_clear">Clear All</string>
+    <string name="button_submit">Submit</string>
+</resources>
