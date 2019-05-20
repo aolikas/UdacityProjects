@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Hamburg</string>
+    <string name="category_general_info">General Info</string>
+    <string name="category_attraction">Attraction</string>
+    <string name="category_cafe">Cafe</string>
+    <string name="category_historic_sites">Historic Sites</string>
+    <string name="category_transport">Transport</string>
+    <string name="category_g_i_name">About city</string>
+    <string name="category_top_to_do">Top Things to do</string>
+    <string name="place_to_visit_1">Guided Hamburg City Bike Tour</string>
+    <string name="place_to_visit_2">Hamburg St Pauli Walking Tour</string>
+    <string name="place_to_visit_3">Hamburg Harbour and Elbe River Tour</string>
+    <string name="place_to_visit_4">Guided Bus tour</string>
+    <string name="place_to_visit_5">Hamburg Old Town City Walking</string>
+    <string name="place_to_visit_6">Hamburg Street Art Walking Tour</string>
+    <string name="place_to_visit_7">Warehouse District and HafenCity</string>
+    <string name="cafe_1">Nord Coast</string>
+    <string name="cafe_2">Mutterland</string>
+    <string name="cafe_3">Cafe Gnosa</string>
+    <string name="cafe_4">Lieblingsplatz</string>
+    <string name="cafe_5">Cafe May</string>
+    <string name="cafe_6">Herr Maxx</string>
+    <string name="cafe_7">Pauline Cafe and Bistro</string>
+    <string name="historic_site_1">Alter Elbtunnel"</string>
+    <string name="historic_site_2">St Nikolai Memorial"</string>
+    <string name="historic_site_3">Grosse Freiheit 36"</string>
+    <string name="historic_site_4">Altonaer Rathaus"</string>
+    <string name="historic_site_5">Hamburger Gangeviertel"</string>
+    <string name="historic_site_6">Wasserkunst Kaltehofe</string>
+    <string name="historic_site_7">Bunkermuseum</string>
+    <string name="historic_site_address_1">Bei den St.pauli-Landungbrucken</string>
+    <string name="historic_site_address_2">Willy-Brandt-Str. 60</string>
+    <string name="historic_site_address_3">Grosse Freiheit 36</string>
+    <string name="historic_site_address_4">Plaz der Republik, Altona</string>
+    <string name="historic_site_address_5">Valentinskamp 39</string>
+    <string name="historic_site_address_6">Kaltehofe Hauptdeich 7</string>
+    <string name="historic_site_address_7">Wichernweg 16</string>
+    <string name="cost_1">$$-$$$</string>
+    <string name="cost_2">$</string>
+
+
+</resources>

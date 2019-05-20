@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.example.buran.myguide.MainActivity">
+
+    <TextView
+        style="@style/CategoryMainNameStyle"
+        android:text="Hamburg" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/CategoryImageStyle"
+        android:contentDescription="TODO" android:contentDescription="TODO" android:src="@drawable/main_picture" />
+
+    <TextView
+        android:id="@+id/general_info"
+        style="@style/CategoryTextStyle"
+        android:text="@string/category_general_info" />
+
+
+    <TextView
+        android:id="@+id/attraction"
+        style="@style/CategoryTextStyle"
+        android:text="@string/category_attraction" />
+
+    <TextView
+        android:id="@+id/top_to_do"
+        style="@style/CategoryTextStyle"
+        android:text="@string/category_top_to_do" />
+
+    <TextView
+        android:id="@+id/cafe"
+        style="@style/CategoryTextStyle"
+        android:text="@string/category_cafe" />
+
+    <TextView
+        android:id="@+id/historic_sites"
+        style="@style/CategoryTextStyle"
+        android:text="@string/category_historic_sites" />
+
+</LinearLayout>
