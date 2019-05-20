@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="albums_page_explanation">Here is only simple page layout of future albums list</string>
+    <string name="artists_page_explanation">Here is only simple page layout of future artists list</string>
+    <string name="collections_page_explanation">Here is only simple page layout of future my collections</string>
+    <string name="playlist_page_explanation">Here is only simple page layout of future playlist</string>
+    <string name="text_for_dounload_page">I suppose to use Android Pay API. According a tutorial Android API is a part of Google Play Services. So first I need to add some dependencies in a build.gradle. Google provides it in a site. Then I need to change a manifest file and add services tags. After I will go to my layout.xml file and add payment button(or buttons) using a frame layout. Then in the MainActivity.java I need to implement some code. I found some examples of implementation and going to do some experiments.
+    </string>
+    <string name="text_for_main_text">Here I am going to add the last second songs that user listening. Maybe in future, I will change numbers of songs. And that will be more that 2 last. I still not sure in what way I will implement it. Need more time and experience for it. Images are here only to cover an empty space.
+</string>
+</resources>

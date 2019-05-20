@@ -1,0 +1,112 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorAccent">#009688</item>
+        <item name="colorPrimaryDark">@color/primary_color</item>
+    </style>
+
+    <style name="CategoryTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/category_text_color</item>
+        <item name="colorAccent">#009688</item>
+        <item name="colorPrimaryDark">@color/category_text_color</item>
+
+    </style>
+
+    <style name="CategoryStyle" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/primary_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/category_margin_bottom</item>
+        <item name="android:paddingLeft">@dimen/category_padding_left</item>
+        <item name="android:textColor">@color/category_text_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/category_text_size</item>
+    </style>
+
+    <style name="TitleStyle" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/title_style_height</item>
+        <item name="android:background">@color/primary_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/category_padding_left</item>
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/title_style_text_size</item>
+    </style>
+
+    <style name="ImageLayout" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/primary_color</item>
+    </style>
+
+    <style name="ImageButtonStyle" parent="AppTheme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="SubCategoryLayoutStyle" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/background_color</item>
+        <item name="android:layout_marginTop">@dimen/sub_category_margin_top</item>
+    </style>
+
+    <style name="SubCategoryStyle" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/primary_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/category_margin_bottom</item>
+        <item name="android:paddingLeft">@dimen/category_padding_left</item>
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:textSize">@dimen/name_of_sons</item>
+    </style>
+
+    <style name="MusicStorePageLayout" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/primary_color</item>
+        <item name="android:layout_marginBottom">@dimen/category_margin_bottom</item>
+        <item name="android:paddingLeft">@dimen/category_padding_left</item>
+        <item name="android:paddingRight">@dimen/category_padding_left</item>
+    </style>
+
+    <style name="MusicStorePageText" parent="AppTheme">
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:textSize">@dimen/name_of_sons</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+    </style>
+
+    <style name="ButtonPriceStyle" parent="AppTheme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.7</item>
+    </style>
+
+    <style name="LabelTitleStyle" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/standart</item>
+        <item name="android:layout_marginBottom">@dimen/standart</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
+

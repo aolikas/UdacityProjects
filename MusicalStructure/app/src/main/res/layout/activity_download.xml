@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.buran.mymusicapplication.DownloadActivity">
+
+    <TextView
+        style="@style/LabelTitleStyle"
+        android:text="@string/label_name_download" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/standart"
+        android:text="@string/text_for_dounload_page" />
+
+    <LinearLayout style="@style/SubCategoryLayoutStyle">
+
+        <LinearLayout style="@style/MusicStorePageLayout">
+
+            <TextView
+                style="@style/MusicStorePageText"
+                android:text="@string/download_song_example" />
+
+            <Button
+                style="@style/ButtonPriceStyle"
+                android:text="@string/price_example" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/MusicStorePageLayout">
+
+            <TextView
+                style="@style/MusicStorePageText"
+                android:text="@string/download_song_example" />
+
+            <Button
+                style="@style/ButtonPriceStyle"
+                android:text="@string/price_example" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/MusicStorePageLayout">
+
+            <TextView
+                style="@style/MusicStorePageText"
+                android:text="@string/download_song_example" />
+
+            <Button
+                style="@style/ButtonPriceStyle"
+                android:text="@string/price_example" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/MusicStorePageLayout">
+
+            <TextView
+                style="@style/MusicStorePageText"
+                android:text="@string/download_song_example" />
+
+            <Button
+                style="@style/ButtonPriceStyle"
+                android:text="@string/price_example" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

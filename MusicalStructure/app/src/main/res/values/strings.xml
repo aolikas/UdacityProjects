@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Music App</string>
+    <string name="category_albums">Albums</string>
+    <string name="category_artists">Artists</string>
+    <string name="category_my_collection">My collections</string>
+    <string name="category_my_playlist">My playlist</string>
+    <string name="category_download_songs">Download songs</string>
+    <string name="recently_played">Recently Played</string>
+    <string name="label_name_albums">My albums</string>
+    <string name="label_name_artists">My favorite singers</string>
+    <string name="label_name_collection">My collections</string>
+    <string name="label_name_playlist">Now playing</string>
+    <string name="label_name_download">My downloads</string>
+    <string name="albums_example">Name of an album</string>
+    <string name="artists_example">Name of an artist</string>
+    <string name="download_song_example">Song</string>
+    <string name="price_example">$1</string>
+    <string name="collection_example">Name of a collection</string>
+    <string name="playlist_example">Name of a song</string>
+</resources>
+
