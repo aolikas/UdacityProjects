@@ -1,0 +1,121 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="textTitleDetailsStyle" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_editor_title_text_margin_top</item>
+        <item name="android:textSize">@dimen/activity_editor_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textTitleQuantityStyle" parent="AppTheme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2.5</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/activity_editor_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="editTextDetailsStyle" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_editor_edit_text_margin_top</item>
+    </style>
+
+    <style name="editNumbersDetailsStyle" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_editor_edit_text_margin_top</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">4</item>
+    </style>
+
+    <style name="editQuantityStyle" parent="AppTheme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">4</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">4</item>
+    </style>
+
+    <style name="horizontalLayoutStyle" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">@dimen/activity_editor_title_text_margin_top</item>
+    </style>
+
+    <style name="imageTextStyle" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/activity_editor_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="buttonDecreaseStyle" parent="AppTheme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">@dimen/activity_editor_decrease_button_margin_left</item>
+        <item name="android:textSize">@dimen/activity_editor_decrease_button_text_size</item>
+    </style>
+
+    <style name="buttonIncreaseStyle" parent="AppTheme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/activity_editor_increase_button_text_size</item>
+    </style>
+
+    <style name="buttonImageStyle" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/activity_editor_button_margin_left</item>
+        <item name="android:paddingLeft">@dimen/activity_editor_button_padding</item>
+        <item name="android:paddingRight">@dimen/activity_editor_button_padding</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="imageViewStyle" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/activity_editor_image_height</item>
+        <item name="android:layout_marginTop">@dimen/activity_editor_image_margin_top</item>
+        <item name="android:layout_marginLeft">@dimen/activity_editor_image_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/activity_editor_image_margin_right</item>
+    </style>
+
+    <style name="verticalLinearLayout" parent="AppTheme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="listItemTextDetailsStyle" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/list_item_text_detail_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/list_item_text_detail_marginn_bottom</item>
+    </style>
+
+    <style name="listItemNumbersDetailsStyle" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>

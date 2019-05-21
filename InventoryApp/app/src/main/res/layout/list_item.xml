@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/list_item_layout_padding">
+
+    <ImageView
+        android:id="@+id/list_item_image_view"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/list_item_image_height"
+        android:layout_weight="1"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_item_layout_margin_left_right"
+        android:layout_marginRight="@dimen/list_item_layout_margin_left_right"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_item_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/list_item_layout_margin_bottom"
+            android:textSize="@dimen/list_item_product_name_text"
+            android:textStyle="bold"
+            tools:text="@string/list_item_product_name" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout style="@style/verticalLinearLayout">
+
+                <TextView
+                    style="@style/listItemTextDetailsStyle"
+                    android:text="@string/list_item_product_price_text" />
+
+                <TextView
+                    android:id="@+id/list_item_product_price"
+                    style="@style/listItemNumbersDetailsStyle"
+                    android:text="@string/list_item_product_price" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/verticalLinearLayout">
+
+                <TextView
+                    style="@style/listItemTextDetailsStyle"
+                    android:text="@string/list_item_product_quantity_text" />
+
+                <TextView
+                    android:id="@+id/list_item_product_quantity"
+                    style="@style/listItemNumbersDetailsStyle"
+                    android:text="@string/list_item_product_quantity" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/verticalLinearLayout">
+
+                <TextView
+                    style="@style/listItemTextDetailsStyle"
+                    android:text="@string/list_item_product_sold_text" />
+
+                <TextView
+                    android:id="@+id/list_item_product_sold"
+                    style="@style/listItemNumbersDetailsStyle"
+                    android:text="@string/list_item_product_sold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/list_item_image_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.5"
+        android:src="@drawable/ic_add_shopping_cart_black_24dp" />
+
+</LinearLayout>

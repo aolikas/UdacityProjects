@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.buran.myinventoryapplication.EditorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_editor_layout_padding">
+
+        <TextView
+            android:id="@+id/product_name_text"
+            style="@style/textTitleDetailsStyle"
+            android:text="@string/product_name" />
+
+        <EditText
+            android:id="@+id/product_name_edit_text"
+            style="@style/editTextDetailsStyle"
+            android:hint="@string/product_name_hint" />
+
+        <TextView
+            android:id="@+id/product_description_text"
+            style="@style/textTitleDetailsStyle"
+            android:text="@string/product_description" />
+
+        <EditText
+            android:id="@+id/product_description_edit_text"
+            style="@style/editTextDetailsStyle"
+            android:hint="@string/product_description_hint" />
+
+        <LinearLayout
+            style="@style/horizontalLayoutStyle"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/product_quantity_text"
+                style="@style/textTitleQuantityStyle"
+                android:text="@string/product_quantity_text" />
+
+            <Button
+                android:id="@+id/product_quantity_decrease_button"
+                style="@style/buttonDecreaseStyle"
+                android:text="-" />
+
+            <EditText
+                android:id="@+id/product_quantity_edit_text"
+                style="@style/editQuantityStyle"
+                android:hint="@string/product_quantity_hint" />
+
+            <Button
+                android:id="@+id/product_quantity_increase_button"
+                style="@style/buttonIncreaseStyle"
+                android:text="+" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/horizontalLayoutStyle">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/product_price_text"
+                    style="@style/textTitleDetailsStyle"
+                    android:layout_gravity="center"
+                    android:text="@string/product_price_text" />
+
+                <EditText
+                    android:id="@+id/product_price_edit_text"
+                    style="@style/editNumbersDetailsStyle"
+                    android:hint="@string/product_price_hint" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/product_sales_text"
+                    style="@style/textTitleDetailsStyle"
+                    android:layout_gravity="center"
+                    android:text="@string/product_sales_text" />
+
+                <EditText
+                    android:id="@+id/product_sales_edit_text"
+                    style="@style/editNumbersDetailsStyle"
+                    android:hint="@string/product_sales_hint" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/product_suppler_title_text"
+            style="@style/textTitleDetailsStyle"
+            android:text="@string/product_supplier_title" />
+
+        <EditText
+            android:id="@+id/product_supplier_title_edit_text"
+            style="@style/editTextDetailsStyle"
+            android:hint="@string/product_supplier_title_hint" />
+
+        <LinearLayout style="@style/horizontalLayoutStyle">
+
+            <TextView
+                android:id="@+id/product_image_text"
+                style="@style/imageTextStyle"
+                android:text="@string/product_image_text" />
+
+            <Button
+                android:id="@+id/button_select_image"
+                style="@style/buttonImageStyle"
+                android:text="@string/product_image_button_text" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/product_image_view"
+            style="@style/imageViewStyle" />
+
+    </LinearLayout>
+
+</ScrollView>
