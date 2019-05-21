@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Book App</string>
+    <string name="edit_hint_text">Please enter a name of book here</string>
+    <string name="button_text">Find a Book</string>
+    <string name="empty_text">Please enter a valid query</string>
+    <string name="list_item_title">Title</string>
+    <string name="list_item_authors">Authors</string>
+    <string name="toast_text">No internet connection</string>
+    <string name="io_exception_e">Problem making the HTTP request</string>
+    <string name="malformed_url_exception">Error with creating URL</string>
+    <string name="url_connection_error">Error response code: </string>
+    <string name="http_request_io_exception">Problem retrieving the book JSON results</string>
+    <string name="json_exception">Problem parsing the book JSON results</string>
+</resources>

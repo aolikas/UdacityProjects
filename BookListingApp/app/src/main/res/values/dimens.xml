@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_text_size">20sp</dimen>
+    <dimen name="edit_text_margin_bottom">10dp</dimen>
+    <dimen name="button_text_size">15sp</dimen>
+    <dimen name="button_margin_bottom">5dp</dimen>
+    <dimen name="list_item_title_margin_bottom">3dp</dimen>
+    <dimen name="list_item_title_margin_top">7dp</dimen>
+    <dimen name="list_item_title_margin_left">4dp</dimen>
+    <dimen name="list_item_authors_margin_bottom">3dp</dimen>
+    <dimen name="list_item_author_margin_top">5dp</dimen>
+    <dimen name="list_item_authors_margin_left">4dp</dimen>
+</resources>

@@ -1,0 +1,64 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#5D4037</item>
+        <item name="colorPrimaryDark">#3E2723</item>
+        <item name="colorAccent">#FF6D00</item>
+    </style>
+
+    <style name="editTextStyle" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/edit_text_margin_bottom</item>
+        <item name="android:textColor">@color/color_text_black</item>
+        <item name="android:textSize">@dimen/edit_text_size</item>
+    </style>
+
+    <style name="searchButtonStyle" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/button_margin_bottom</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/color_button_background</item>
+        <item name="android:textColor">@color/color_button_text</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <style name="emptyTextStyle" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="listViewStyle" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+
+    <style name="listItemTitleStyle" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/list_item_title_margin_bottom</item>
+        <item name="android:layout_marginTop">@dimen/list_item_title_margin_top</item>
+        <item name="android:layout_marginLeft">@dimen/list_item_title_margin_left</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="listItemAuthorsStyle" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/list_item_authors_margin_bottom</item>
+        <item name="android:layout_marginTop">@dimen/list_item_author_margin_top</item>
+        <item name="android:layout_marginLeft">@dimen/list_item_authors_margin_left</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+</resources>
